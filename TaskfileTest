@@ -1,0 +1,3 @@
+./sumaAleatorios 9420390 ./output/salida1.txt
+./sumaAleatorios 4480105 ./output/salida2.txt
+./sumaAleatorios 5716753 ./output/salida3.txt

@@ -1,0 +1,10 @@
+Planificador:
+Mientras haya tareas por atender:
+  - Recibe una tarea:
+  - Verifica si hay recurso disponible para ejecutarla
+    (en una lista se guarda el estado de los recursos.
+    Se puede guardar el id del proceso que ocupa el recurso,
+    o un -1 para indicar que esta disponible)
+    -Si hay un recurso disponible, asignar recurso al proceso
+    ejecutar tarea.
+    - Si el recurso no esta disponible, esperar hasta que un proceso haya terminado. Liberar recurso y asignarlo a la nueva tarea. 
